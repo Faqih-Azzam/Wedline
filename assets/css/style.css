@@ -72,7 +72,7 @@ footer .icon-footer {
 }
 
 .review {
-  animation: ganti-gambar 3s infinite;
+  animation: ganti-gambar 7s infinite;
 }
 
 @keyframes ganti-gambar {
