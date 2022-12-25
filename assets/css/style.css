@@ -79,10 +79,10 @@ footer .icon-footer {
   0% {
     content: url("/assets/img/img-1.png");
   }
-  40% {
+  33% {
     content: url("/assets/img/img-2.png");
   }
-  80% {
+  66% {
     content: url("/assets/img/img-3.png");
   }
 }
