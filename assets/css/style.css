@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Libre+Baskerville:wght@400;700");
+
+:root {
+  --bg-cover: url("/assets/img/bg-page.png");
+  --bg-footer: #1b1c1e;
+  --color-font: #1b1c1e;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  color: #1b1c1e;
+}
+
+.full-h {
+  min-height: 100vh;
+  height: 100%;
+  padding: 90px 0 10px 0;
+  margin: 0;
+}
+
+.banner-image {
+  background-image: var(--bg-cover);
+  background-size: cover;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 0 5px #dfdfdf;
+  padding: 30px;
+}
+
+.icon em {
+  margin-bottom: 20px;
+  background-color: #e54f4f;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  box-shadow: 0 0 0 5px rgba(229, 79, 79, 0.2);
+  border-radius: 100%;
+}
+
+footer {
+  background-color: var(--bg-footer);
+  color: white;
+  padding: 15px 10px;
+}
+
+footer img {
+  filter: invert(100%);
+}
+
+footer .icon-footer {
+  font-size: 20px;
+  border-radius: 100%;
+  margin-left: 10px;
+  align-items: center;
+  color: #1b1c1e;
+  background-color: #dfdfdf;
+  /* box-shadow: 0 0 0 5px rgba(255, 203, 203, 0.2); */
+}
