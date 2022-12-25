@@ -70,3 +70,19 @@ footer .icon-footer {
   background-color: #dfdfdf;
   /* box-shadow: 0 0 0 5px rgba(255, 203, 203, 0.2); */
 }
+
+.review {
+  animation: ganti-gambar 3s infinite;
+}
+
+@keyframes ganti-gambar {
+  0% {
+    content: url("/assets/img/img-1.png");
+  }
+  40% {
+    content: url("/assets/img/img-2.png");
+  }
+  80% {
+    content: url("/assets/img/img-3.png");
+  }
+}
